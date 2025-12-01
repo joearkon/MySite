@@ -55,14 +55,12 @@ export const translations: Record<Language, Record<string, string>> = {
     "lifestyle.card.nio.title": "NIO ET5T Journey",
     "lifestyle.card.nio.loc": "Road Trip Story",
     "lifestyle.card.camping.title": "Weekend Camping",
-    "lifestyle.card.camping.loc": "Anji, Zhejiang",
+    "lifestyle.card.camping.loc": "Xishan Island, Jiangsu",
     
-    "lifestyle.card.jp1.title": "Kyoto Vibes",
-    "lifestyle.card.jp1.loc": "Kyoto, Japan",
-    "lifestyle.card.jp2.title": "Osaka Streets",
-    "lifestyle.card.jp2.loc": "Osaka, Japan",
-    "lifestyle.card.jp3.title": "Scenic Views",
-    "lifestyle.card.jp3.loc": "Japan Trip",
+    "lifestyle.card.jp1.title": "Tokyo City",
+    "lifestyle.card.jp1.loc": "Tokyo, Japan",
+    "lifestyle.card.jp2.title": "Mt. Fuji Kawaguchiko",
+    "lifestyle.card.jp2.loc": "Yamanashi, Japan",
 
     // Footer
     "footer.title": "Let's build value together.",
@@ -136,14 +134,12 @@ export const translations: Record<Language, Record<string, string>> = {
     "lifestyle.card.nio.title": "蔚来 ET5T 游记",
     "lifestyle.card.nio.loc": "自驾·旅途",
     "lifestyle.card.camping.title": "周末露营",
-    "lifestyle.card.camping.loc": "浙江·安吉",
+    "lifestyle.card.camping.loc": "江苏省西山岛",
     
-    "lifestyle.card.jp1.title": "京都古韵",
-    "lifestyle.card.jp1.loc": "日本·京都",
-    "lifestyle.card.jp2.title": "大阪街头",
-    "lifestyle.card.jp2.loc": "日本·大阪",
-    "lifestyle.card.jp3.title": "旅途风景",
-    "lifestyle.card.jp3.loc": "日本·旅行",
+    "lifestyle.card.jp1.title": "日本东京",
+    "lifestyle.card.jp1.loc": "日本·东京",
+    "lifestyle.card.jp2.title": "富士山河口湖",
+    "lifestyle.card.jp2.loc": "日本·河口湖",
 
     // Footer
     "footer.title": "让我们共创价值",

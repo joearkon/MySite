@@ -25,21 +25,14 @@ const Lifestyle: React.FC = () => {
       id: 3,
       title: t('lifestyle.card.jp1.title'),
       location: t('lifestyle.card.jp1.loc'),
-      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEL0bJpLTGqiQvaO6XmA9ZGTsjcrYDxAAMOIQAC1expVRJXmARg2hHhNgQ.jpg', // Japan 1 (Kyoto)
+      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEL0bJpLTGqiQvaO6XmA9ZGTsjcrYDxAAMOIQAC1expVRJXmARg2hHhNgQ.jpg', // Japan 1 (Tokyo/Kyoto)
       type: 'photo'
     },
     {
       id: 4,
       title: t('lifestyle.card.jp2.title'),
       location: t('lifestyle.card.jp2.loc'),
-      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEL0bNpLTGqCHpgk6aXcq2tPuD3FKOthAACDyEAAtXsaVVxjPibTpjhUDYE.jpg', // Japan 2 (Osaka)
-      type: 'photo'
-    },
-    {
-      id: 5,
-      title: t('lifestyle.card.jp3.title'),
-      location: t('lifestyle.card.jp3.loc'),
-      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEL0bBpLTGqMJ5vmc59c2kNfOe-re50KQACDCEAAtXsaVX3a-YhGFkPTjYE.jpg', // Japan 3 (View)
+      image: 'https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEL0bNpLTGqCHpgk6aXcq2tPuD3FKOthAACDyEAAtXsaVVxjPibTpjhUDYE.jpg', // Japan 2 (Fuji/Osaka)
       type: 'photo'
     }
   ];
