@@ -38,19 +38,16 @@ const Lifestyle: React.FC = () => {
   ];
 
   return (
-    <section id="life" className="py-20 px-0 md:px-6 overflow-hidden bg-background relative">
-      <div className="max-w-7xl mx-auto px-6 mb-10 flex flex-col md:flex-row justify-between items-end">
+    <section id="life" className="py-24 px-6 bg-background relative border-t border-surface/50">
+      <div className="max-w-7xl mx-auto mb-12 flex flex-col md:flex-row justify-between items-end">
         <div>
-           <h2 className="text-3xl md:text-4xl font-bold text-textMain mb-2">{t('lifestyle.title')}</h2>
-           <p className="text-textMuted">{t('lifestyle.subtitle')}</p>
-        </div>
-        <div className="hidden md:block w-32 h-1 bg-surface rounded-full overflow-hidden mt-4 md:mt-0">
-            <div className="w-1/3 h-full bg-primary/50"></div>
+           <h2 className="text-3xl md:text-4xl font-bold text-textMain mb-3">{t('lifestyle.title')}</h2>
+           <p className="text-textMuted text-lg">{t('lifestyle.subtitle')}</p>
         </div>
       </div>
 
-      {/* Horizontal Scroll Container */}
-      <div className="flex overflow-x-auto snap-x snap-mandatory gap-6 px-6 pb-12 scrollbar-hide md:cursor-grab active:cursor-grabbing">
+      {/* Responsive Grid Layout */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {MOMENTS.map((item) => {
           const Wrapper = item.link ? 'a' : 'div';
           const wrapperProps = item.link ? {
@@ -63,7 +60,7 @@ const Lifestyle: React.FC = () => {
             <Wrapper 
               key={item.id} 
               {...wrapperProps}
-              className="snap-center shrink-0 w-[280px] md:w-[320px] h-[400px] relative rounded-2xl overflow-hidden group border border-textMain/5 bg-surface shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+              className="group relative h-[400px] w-full rounded-2xl overflow-hidden border border-textMain/5 bg-surface shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
             >
               {/* Image */}
               <img 
@@ -73,11 +70,11 @@ const Lifestyle: React.FC = () => {
               />
               
               {/* Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
 
               {/* Link Icon Indicator */}
               {item.link && (
-                <div className="absolute top-4 right-4 p-2 bg-white/20 backdrop-blur-md rounded-full text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute top-4 right-4 p-2 bg-white/20 backdrop-blur-md rounded-full text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
                     <ExternalLinkIcon className="w-4 h-4" />
                 </div>
               )}
@@ -90,7 +87,7 @@ const Lifestyle: React.FC = () => {
                   </div>
                 )}
                 
-                <h3 className="text-xl font-bold text-white mb-1">{item.title}</h3>
+                <h3 className="text-xl font-bold text-white mb-1.5">{item.title}</h3>
                 
                 <div className="flex items-center gap-1.5 text-xs font-medium text-slate-300">
                   <MapPinIcon className="w-3.5 h-3.5 text-primary" />
@@ -100,9 +97,6 @@ const Lifestyle: React.FC = () => {
             </Wrapper>
           );
         })}
-        
-        {/* Spacer for right padding */}
-        <div className="w-2 shrink-0"></div>
       </div>
     </section>
   );

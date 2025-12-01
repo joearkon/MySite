@@ -5,7 +5,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Nav
     "nav.home": "Home",
     "nav.showcase": "Passion & Value",
-    "nav.life": "Life Moments",
+    "nav.life": "Life Experience",
     "nav.resume": "Resume",
     
     // Hero
@@ -50,7 +50,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.hobby.football.desc": "Tactics and brotherhood on the field.",
 
     // Lifestyle
-    "lifestyle.title": "Life Fragments",
+    "lifestyle.title": "Life Experience",
     "lifestyle.subtitle": "Exploring the world, recording moments, one frame at a time.",
     "lifestyle.card.nio.title": "NIO ET5T Journey",
     "lifestyle.card.nio.loc": "Road Trip Story",
@@ -84,7 +84,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Nav
     "nav.home": "首页",
     "nav.showcase": "价值与热爱",
-    "nav.life": "生活碎片",
+    "nav.life": "生活体验",
     "nav.resume": "简历",
 
     // Hero
@@ -129,7 +129,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.hobby.football.desc": "绿茵场上的团队协作与战术执行。",
 
     // Lifestyle
-    "lifestyle.title": "生活碎片",
+    "lifestyle.title": "生活体验",
     "lifestyle.subtitle": "丈量世界，记录瞬间。工作之外的鲜活时刻。",
     "lifestyle.card.nio.title": "蔚来 ET5T 游记",
     "lifestyle.card.nio.loc": "自驾·旅途",
