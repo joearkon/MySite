@@ -1,7 +1,6 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import Hero from './components/Hero';
-import Projects from './components/Projects';
-import Interests from './components/Interests';
+import Interests from './components/Interests'; // This now serves as the unified Showcase
 import ChatBot from './components/ChatBot';
 import Footer from './components/Footer';
 import { SunIcon, MoonIcon, TranslateIcon } from './components/Icons';
@@ -50,8 +49,7 @@ const App: React.FC = () => {
           <div className="flex items-center gap-6">
             <div className="hidden md:flex gap-8 text-sm font-medium text-textMuted">
               <a href="#" className="hover:text-primary transition-colors">{t('nav.home')}</a>
-              <a href="#projects" className="hover:text-primary transition-colors">{t('nav.tools')}</a>
-              <a href="#interests" className="hover:text-primary transition-colors">{t('nav.interests')}</a>
+              <a href="#showcase" className="hover:text-primary transition-colors">{t('nav.showcase')}</a>
               <a href="https://myresume-mshptvae.edgeone.run/" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">{t('nav.resume')}</a>
             </div>
 
@@ -79,7 +77,6 @@ const App: React.FC = () => {
         </nav>
 
         <Hero />
-        <Projects />
         <Interests />
         <Footer />
         

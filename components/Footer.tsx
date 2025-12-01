@@ -31,10 +31,17 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="flex justify-center gap-6 mb-8">
-            <a href="mailto:joe.chen@example.com" className="text-lg font-mono text-secondary hover:text-primary transition-colors">
-            joe.chen@example.com
+        {/* Direct Contact Info */}
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-8 font-mono text-sm text-textMuted">
+            <a href="tel:13524252203" className="hover:text-primary transition-colors flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 hover:bg-surface">
+               📱 13524252203
             </a>
+             <a href="mailto:313455055@qq.com" className="hover:text-primary transition-colors flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 hover:bg-surface">
+               📧 313455055@qq.com
+            </a>
+            <span className="flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 bg-surface/50">
+               📍 {t('footer.location')}
+            </span>
         </div>
         
         <div className="mt-8 text-xs text-textMuted">
