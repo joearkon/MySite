@@ -36,12 +36,6 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.hobby.football": "Team Spirit",
     "showcase.hobby.football.desc": "Tactics and brotherhood on the field.",
 
-    "showcase.hobby.gundam.red": "Red Comet",
-    "showcase.hobby.gundam.white": "White Devil",
-    "showcase.hobby.gundam.black": "Black Tri-Stars",
-    "showcase.hobby.football.team": "The Squad",
-    "showcase.hobby.football.match": "Match Day",
-
     // Footer
     "footer.title": "Let's build value together.",
     "footer.desc": "Whether discussing the business logic of architecture and strategy, or sharing insights on the precision of Gundam modeling and football tactics, I am always open to connecting.",
@@ -90,12 +84,6 @@ export const translations: Record<Language, Record<string, string>> = {
 
     "showcase.hobby.football": "足球战术",
     "showcase.hobby.football.desc": "绿茵场上的团队协作与战术执行。",
-
-    "showcase.hobby.gundam.red": "红色彗星",
-    "showcase.hobby.gundam.white": "联邦白色恶魔",
-    "showcase.hobby.gundam.black": "黑色三连星",
-    "showcase.hobby.football.team": "最佳阵容",
-    "showcase.hobby.football.match": "逐梦绿茵",
 
     // Footer
     "footer.title": "让我们共创价值",

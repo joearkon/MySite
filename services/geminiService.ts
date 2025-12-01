@@ -1,9 +1,25 @@
 import { GoogleGenAI } from "@google/genai";
 import { ChatMessage, MessageRole } from "../types";
 
+// Helper to safely get the API key without crashing if process is undefined
+const getApiKey = () => {
+  try {
+    return process.env.API_KEY || '';
+  } catch (e) {
+    console.warn("process.env not available");
+    return '';
+  }
+};
+
 // Initialize the API client
 // Note: process.env.API_KEY is injected by the environment.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Using a lazy initialization or safe check approach to prevent white-screen crashes on load if key is missing.
+const apiKey = getApiKey();
+let ai: GoogleGenAI | null = null;
+
+if (apiKey) {
+  ai = new GoogleGenAI({ apiKey });
+}
 
 const SYSTEM_INSTRUCTION = `
 You are the "Digital Twin" of Joe Chen (Chen Zizhuoye), a Senior Tech & Business Architect.
@@ -36,6 +52,16 @@ export const sendMessageToGemini = async (
   history: ChatMessage[],
   newMessage: string
 ): Promise<string> => {
+  if (!ai) {
+    // Attempt to re-initialize if it failed initially but maybe env is ready now (unlikely but safe)
+    const currentKey = getApiKey();
+    if (currentKey) {
+        ai = new GoogleGenAI({ apiKey: currentKey });
+    } else {
+        return "AI Configuration Error: API Key is missing. Please check the deployment settings.";
+    }
+  }
+
   try {
     const chat = ai.chats.create({
       model: 'gemini-2.5-flash',
