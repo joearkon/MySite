@@ -3,6 +3,9 @@ import Hero from './components/Hero';
 import Interests from './components/Interests'; // This now serves as the unified Showcase
 import ChatBot from './components/ChatBot';
 import Footer from './components/Footer';
+import ScrollProgress from './components/ScrollProgress';
+import BackToTop from './components/BackToTop';
+import MouseGlow from './components/MouseGlow';
 import { SunIcon, MoonIcon, TranslateIcon } from './components/Icons';
 import { AppContextType, Language, Theme } from './types';
 import { translations } from './translations';
@@ -39,7 +42,11 @@ const App: React.FC = () => {
 
   return (
     <AppContext.Provider value={{ language, setLanguage, theme, toggleTheme, t }}>
-      <main className="min-h-screen relative overflow-hidden transition-colors duration-500">
+      <main className="min-h-screen relative overflow-hidden transition-colors duration-500 bg-background text-textMain">
+        {/* Interactive Elements */}
+        <ScrollProgress />
+        <MouseGlow />
+
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-40 p-6 flex justify-between items-center backdrop-blur-md bg-background/80 border-b border-surface">
           <div className="font-bold text-xl tracking-tighter hover:text-primary transition-colors cursor-default text-textMain">
@@ -80,7 +87,8 @@ const App: React.FC = () => {
         <Interests />
         <Footer />
         
-        {/* AI Assistant Floating Action Button */}
+        {/* Floating Actions */}
+        <BackToTop />
         <ChatBot />
       </main>
     </AppContext.Provider>
