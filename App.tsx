@@ -1,6 +1,7 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
 import Hero from './components/Hero';
 import Interests from './components/Interests'; // This now serves as the unified Showcase
+import Lifestyle from './components/Lifestyle';
 import ChatBot from './components/ChatBot';
 import Footer from './components/Footer';
 import ScrollProgress from './components/ScrollProgress';
@@ -57,6 +58,7 @@ const App: React.FC = () => {
             <div className="hidden md:flex gap-8 text-sm font-medium text-textMuted">
               <a href="#" className="hover:text-primary transition-colors">{t('nav.home')}</a>
               <a href="#showcase" className="hover:text-primary transition-colors">{t('nav.showcase')}</a>
+              <a href="#life" className="hover:text-primary transition-colors">{t('nav.life')}</a>
               <a href="https://myresume-mshptvae.edgeone.run/" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">{t('nav.resume')}</a>
             </div>
 
@@ -85,6 +87,7 @@ const App: React.FC = () => {
 
         <Hero />
         <Interests />
+        <Lifestyle />
         <Footer />
         
         {/* Floating Actions */}

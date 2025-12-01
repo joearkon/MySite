@@ -5,6 +5,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Nav
     "nav.home": "Home",
     "nav.showcase": "Passion & Value",
+    "nav.life": "Life Moments",
     "nav.resume": "Resume",
     
     // Hero
@@ -48,6 +49,21 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.hobby.football": "Team Spirit",
     "showcase.hobby.football.desc": "Tactics and brotherhood on the field.",
 
+    // Lifestyle
+    "lifestyle.title": "Life Fragments",
+    "lifestyle.subtitle": "Exploring the world, recording moments, one frame at a time.",
+    "lifestyle.card.nio.title": "NIO ET5T Journey",
+    "lifestyle.card.nio.loc": "Road Trip Story",
+    "lifestyle.card.camping.title": "Weekend Camping",
+    "lifestyle.card.camping.loc": "Anji, Zhejiang",
+    
+    "lifestyle.card.jp1.title": "Kyoto Vibes",
+    "lifestyle.card.jp1.loc": "Kyoto, Japan",
+    "lifestyle.card.jp2.title": "Osaka Streets",
+    "lifestyle.card.jp2.loc": "Osaka, Japan",
+    "lifestyle.card.jp3.title": "Scenic Views",
+    "lifestyle.card.jp3.loc": "Japan Trip",
+
     // Footer
     "footer.title": "Let's build value together.",
     "footer.desc": "Whether discussing the business logic of architecture and strategy, or sharing insights on the precision of Gundam modeling and football tactics, I am always open to connecting.",
@@ -70,6 +86,7 @@ export const translations: Record<Language, Record<string, string>> = {
     // Nav
     "nav.home": "首页",
     "nav.showcase": "价值与热爱",
+    "nav.life": "生活碎片",
     "nav.resume": "简历",
 
     // Hero
@@ -112,6 +129,21 @@ export const translations: Record<Language, Record<string, string>> = {
 
     "showcase.hobby.football": "足球战术",
     "showcase.hobby.football.desc": "绿茵场上的团队协作与战术执行。",
+
+    // Lifestyle
+    "lifestyle.title": "生活碎片",
+    "lifestyle.subtitle": "丈量世界，记录瞬间。工作之外的鲜活时刻。",
+    "lifestyle.card.nio.title": "蔚来 ET5T 游记",
+    "lifestyle.card.nio.loc": "自驾·旅途",
+    "lifestyle.card.camping.title": "周末露营",
+    "lifestyle.card.camping.loc": "浙江·安吉",
+    
+    "lifestyle.card.jp1.title": "京都古韵",
+    "lifestyle.card.jp1.loc": "日本·京都",
+    "lifestyle.card.jp2.title": "大阪街头",
+    "lifestyle.card.jp2.loc": "日本·大阪",
+    "lifestyle.card.jp3.title": "旅途风景",
+    "lifestyle.card.jp3.loc": "日本·旅行",
 
     // Footer
     "footer.title": "让我们共创价值",
