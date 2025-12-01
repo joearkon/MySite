@@ -74,74 +74,74 @@ const Interests: React.FC = () => {
             </div>
           </a>
 
-          {/* --- ROW 2: RESUME (Full Width Separator) --- */}
-          <a 
-            href="https://myresume-mshptvae.edgeone.run/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="md:col-span-4 md:row-span-1 rounded-2xl bg-surface border border-textMain/10 hover:border-textMain/30 hover:bg-surface/80 transition-all duration-300 flex items-center justify-between px-8 md:px-12 group shadow-sm hover:shadow-md cursor-pointer h-24 md:h-auto mt-4 mb-4"
-          >
-            <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-textMain/5 flex items-center justify-center group-hover:scale-110 transition-transform">
-                    <svg className="w-6 h-6 text-textMain" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
-                </div>
-                <div className="text-left">
-                    <h3 className="font-bold text-xl text-textMain">{t('showcase.tool.resume')}</h3>
-                    <p className="text-sm text-textMuted hidden md:block">{t('showcase.tool.resume.desc')}</p>
-                </div>
-            </div>
-            <div className="flex items-center gap-2 text-primary font-medium group-hover:translate-x-1 transition-transform">
-                <span>View PDF</span>
-                <ExternalLinkIcon className="w-4 h-4" />
-            </div>
-          </a>
-
-          {/* --- ROW 3 & 4: PASSION & HOBBIES (Pure Visuals) --- */}
+          {/* --- ROW 2 & 3: PASSION & HOBBIES (Pure Visuals) --- */}
           {/* Layout: 3 Gundam images on top, 2 Football images below */}
+          
+          {/* Common Image Styles: 
+              grayscale -> color
+              scale-100 -> scale-105 (subtle zoom)
+              brightness-90 -> brightness-110 (pop effect)
+              opacity-90 -> opacity-100
+          */}
 
           {/* Gundam 1 (Vertical-ish) */}
-          <div className="md:col-span-1 md:row-span-1 rounded-2xl overflow-hidden relative group">
-             <img 
-              src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzsdpLQABz2N3L6AHPr1mijWFNkHoBvUAAqgdAALV7GlVf_t_i-9d5LQ2BA.jpg" 
-              alt="Gundam" 
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 scale-100 group-hover:scale-110 transition-all duration-700 ease-in-out"
-            />
+          <div className="md:col-span-1 md:row-span-1 rounded-2xl overflow-hidden relative group border border-transparent hover:border-textMain/10 transition-colors">
+             <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent z-10 transition-colors duration-500"></div>
+             <div className="w-full h-full overflow-hidden border-2 border-transparent group-hover:border-primary/50 rounded-2xl transition-all duration-500 box-border">
+                <img 
+                  src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzsdpLQABz2N3L6AHPr1mijWFNkHoBvUAAqgdAALV7GlVf_t_i-9d5LQ2BA.jpg" 
+                  alt="Gundam" 
+                  className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 group-hover:brightness-110 transition-all duration-500 ease-out"
+                />
+             </div>
           </div>
 
           {/* Gundam 2 (Wide) */}
-           <div className="md:col-span-2 md:row-span-1 rounded-2xl overflow-hidden relative group">
-             <img 
-              src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzsZpLQABz4R_wpD00B2acCZOFS5nlYQAAqcdAALV7GlVfFBctsSodvI2BA.jpg" 
-              alt="Gundam Red" 
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 scale-100 group-hover:scale-110 transition-all duration-700 ease-in-out"
-            />
+           <div className="md:col-span-2 md:row-span-1 rounded-2xl overflow-hidden relative group border border-transparent hover:border-textMain/10 transition-colors">
+             <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent z-10 transition-colors duration-500"></div>
+             <div className="w-full h-full overflow-hidden border-2 border-transparent group-hover:border-primary/50 rounded-2xl transition-all duration-500 box-border">
+                <img 
+                  src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzsZpLQABz4R_wpD00B2acCZOFS5nlYQAAqcdAALV7GlVfFBctsSodvI2BA.jpg" 
+                  alt="Gundam Red" 
+                  className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 group-hover:brightness-110 transition-all duration-500 ease-out"
+                />
+             </div>
           </div>
 
           {/* Gundam 3 (Vertical-ish) */}
-          <div className="md:col-span-1 md:row-span-1 rounded-2xl overflow-hidden relative group">
-             <img 
-              src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzsVpLQABz1Ae05_m8lqHdrQAAVUJ5qp4AAKmHQAC1expVcqYwzWQOyoENgQ.jpg" 
-              alt="Gundam Black" 
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 scale-100 group-hover:scale-110 transition-all duration-700 ease-in-out object-top"
-            />
+          <div className="md:col-span-1 md:row-span-1 rounded-2xl overflow-hidden relative group border border-transparent hover:border-textMain/10 transition-colors">
+             <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent z-10 transition-colors duration-500"></div>
+             <div className="w-full h-full overflow-hidden border-2 border-transparent group-hover:border-primary/50 rounded-2xl transition-all duration-500 box-border">
+                <img 
+                  src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzsVpLQABz1Ae05_m8lqHdrQAAVUJ5qp4AAKmHQAC1expVcqYwzWQOyoENgQ.jpg" 
+                  alt="Gundam Black" 
+                  className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 group-hover:brightness-110 transition-all duration-500 ease-out object-top"
+                />
+             </div>
           </div>
 
           {/* Football 1 (Wide) */}
-          <div className="md:col-span-2 md:row-span-1 rounded-2xl overflow-hidden relative group">
-             <img 
-              src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzshpLQABz57Jgihl1iLqe-gkZR9R3kwAAqkdAALV7GlVG7cYzSQ26xA2BA.jpg" 
-              alt="Football Team" 
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 scale-100 group-hover:scale-105 transition-all duration-700 ease-in-out object-top"
-            />
+          <div className="md:col-span-2 md:row-span-1 rounded-2xl overflow-hidden relative group border border-transparent hover:border-textMain/10 transition-colors">
+             <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent z-10 transition-colors duration-500"></div>
+             <div className="w-full h-full overflow-hidden border-2 border-transparent group-hover:border-secondary/50 rounded-2xl transition-all duration-500 box-border">
+                <img 
+                  src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzshpLQABz57Jgihl1iLqe-gkZR9R3kwAAqkdAALV7GlVG7cYzSQ26xA2BA.jpg" 
+                  alt="Football Team" 
+                  className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 group-hover:brightness-110 transition-all duration-500 ease-out object-top"
+                />
+             </div>
           </div>
           
            {/* Football 2 (Wide) */}
-           <div className="md:col-span-2 md:row-span-1 rounded-2xl overflow-hidden relative group">
-             <img 
-              src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzslpLQAB0PeZw7hJoTL4GSWV36KiCBYAAqodAALV7GlVDxMc3hqlCTI2BA.jpg" 
-              alt="Football Match" 
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 scale-100 group-hover:scale-105 transition-all duration-700 ease-in-out"
-            />
+           <div className="md:col-span-2 md:row-span-1 rounded-2xl overflow-hidden relative group border border-transparent hover:border-textMain/10 transition-colors">
+             <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent z-10 transition-colors duration-500"></div>
+             <div className="w-full h-full overflow-hidden border-2 border-transparent group-hover:border-secondary/50 rounded-2xl transition-all duration-500 box-border">
+                <img 
+                  src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzslpLQAB0PeZw7hJoTL4GSWV36KiCBYAAqodAALV7GlVDxMc3hqlCTI2BA.jpg" 
+                  alt="Football Match" 
+                  className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 group-hover:brightness-110 transition-all duration-500 ease-out"
+                />
+             </div>
           </div>
 
         </div>
