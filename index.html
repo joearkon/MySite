@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth dark">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joe Chen | Tech to Business Growth</title>
+    <script>
+      // Immediate Theme Check to prevent FOUC (Flash of Unstyled Content)
+      // Checks localStorage first, then system preference
+      (function() {
+        try {
+          const savedTheme = localStorage.getItem('theme');
+          const sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          
+          if (savedTheme === 'dark' || (!savedTheme && sysDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          }
+        } catch (e) {
+          // Fallback to dark if anything fails
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       // Polyfill for process.env to prevent "process is not defined" crash in browser environments

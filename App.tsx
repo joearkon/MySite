@@ -23,14 +23,27 @@ export const AppContext = createContext<AppContextType>({
 export const useApp = () => useContext(AppContext);
 
 const App: React.FC = () => {
-  const [theme, setTheme] = useState<Theme>('dark');
+  // Initialize theme from localStorage or System Preference
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window !== 'undefined') {
+        const saved = localStorage.getItem('theme') as Theme;
+        if (saved === 'light' || saved === 'dark') return saved;
+        
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            return 'dark';
+        }
+    }
+    return 'dark'; // Default fallback
+  });
+
   const [language, setLanguage] = useState<Language>('zh'); // Default to Chinese
 
-  // Initialize theme on mount
+  // Effect to apply theme class and save to localStorage
   useEffect(() => {
     const root = window.document.documentElement;
     root.classList.remove('light', 'dark');
     root.classList.add(theme);
+    localStorage.setItem('theme', theme);
   }, [theme]);
 
   const toggleTheme = () => {
