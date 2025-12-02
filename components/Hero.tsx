@@ -94,9 +94,7 @@ const Hero: React.FC = () => {
             {t('hero.btn.resume')}
             <ExternalLinkIcon className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
           </a>
-          <a href="#showcase" className="px-8 py-3 rounded-full border border-textMain/20 hover:border-secondary hover:text-secondary transition-colors bg-surface/50 backdrop-blur-sm text-textMain">
-            {t('hero.btn.tools')}
-          </a>
+          {/* Removed "Tools / My Work" button as requested */}
           <a href="#contact" className="px-8 py-3 rounded-full border border-transparent hover:bg-surface text-textMuted hover:text-textMain transition-colors">
             {t('hero.btn.contact')}
           </a>
