@@ -14,7 +14,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "Brand Growth",
     "hero.subtitle_extra": "— Cross-disciplinary Practice of a Business Key Account Manager",
     "hero.desc": "Joe Chen (JOE CHEN), a Business Key Account Manager transformed from a technical background, specializing in the implementation and operation of chain catering brands. Expert in bridging the gap between technical implementation and customer growth.",
-    "hero.desc_extended": "I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection and a creator of life-vlog short videos; I also use Gemini AI to build practical tools—turning both technology and passion into tangible daily value.",
+    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection and a creator of life-vlog short videos; I also use Gemini AI to build practical tools—turning both technology and passion into tangible daily value.",
     
     "hero.btn.resume": "View Career Journey",
     "hero.btn.tools": "My Work",
@@ -93,7 +93,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "品牌增长",
     "hero.subtitle_extra": "—— 业务大客户经理的跨界实践",
     "hero.desc": "陈子卓野（JOE CHEN）从技术岗转型的业务大客户经理，深耕连锁餐饮品牌的实施与运营，擅长打通技术落地与客户增长的链路。",
-    "hero.desc_extended": "既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”，也爱用短视频剪生活碎片；更靠 AI Gemini 捣鼓出不少工作生活的实用小工具 —— 让技术与热爱，都落地成日常的实在价值。",
+    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”，也爱用短视频剪生活碎片；更靠 AI Gemini 捣鼓出不少工作生活的实用小工具 —— 让技术与热爱，都落地成日常的实在价值。",
     
     "hero.btn.resume": "查看个人履历生涯",
     "hero.btn.tools": "我的作品",
