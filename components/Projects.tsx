@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
       description: t('projects.p3.desc'),
       tags: ["Personal Branding", "Architecture"],
       imageUrl: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=800",
-      link: "https://myresume-mshptvae.edgeone.run/"
+      link: "https://my-resume.kunkun1023.xyz"
     }
   ];
 

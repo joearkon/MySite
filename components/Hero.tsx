@@ -86,7 +86,7 @@ const Hero: React.FC = () => {
         {/* Buttons */}
         <div className="flex flex-col md:flex-row justify-center gap-4 animate-slide-up [animation-delay:600ms] w-full md:w-auto">
           <a 
-            href="https://myresume-mshptvae.edgeone.run/" 
+            href="https://my-resume.kunkun1023.xyz" 
             target="_blank"
             rel="noopener noreferrer"
             className="group px-8 py-3 rounded-full bg-primary text-white font-bold hover:bg-indigo-600 transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary/25"
@@ -94,7 +94,6 @@ const Hero: React.FC = () => {
             {t('hero.btn.resume')}
             <ExternalLinkIcon className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />
           </a>
-          {/* Removed "Tools / My Work" button as requested */}
           <a href="#contact" className="px-8 py-3 rounded-full border border-transparent hover:bg-surface text-textMuted hover:text-textMain transition-colors">
             {t('hero.btn.contact')}
           </a>

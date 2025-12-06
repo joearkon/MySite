@@ -72,7 +72,7 @@ const App: React.FC = () => {
               <a href="#" className="hover:text-primary transition-colors">{t('nav.home')}</a>
               <a href="#showcase" className="hover:text-primary transition-colors">{t('nav.showcase')}</a>
               <a href="#life" className="hover:text-primary transition-colors">{t('nav.life')}</a>
-              <a href="https://myresume-mshptvae.edgeone.run/" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">{t('nav.resume')}</a>
+              <a href="https://my-resume.kunkun1023.xyz" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">{t('nav.resume')}</a>
             </div>
 
             <div className="flex items-center gap-2 pl-4 border-l border-surface">
