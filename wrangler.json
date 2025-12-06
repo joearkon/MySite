@@ -1,0 +1,10 @@
+{
+  "name": "joe-chen-portfolio",
+  "compatibility_date": "2024-12-06",
+  "assets": {
+    "directory": "./dist"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
