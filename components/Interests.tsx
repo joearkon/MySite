@@ -25,9 +25,9 @@ const Interests: React.FC = () => {
           
           {/* --- ROW 1: CORE BUSINESS VALUE (AI TOOLS) --- */}
           
-          {/* Smart Price AI */}
+          {/* Stock Mind AI (formerly Smart Price) */}
           <a 
-            href="https://smart-price-v1-0ipm8ajj.edgeone.run/"
+            href="https://stock-mind.kunkun1023.xyz/#/market"
             target="_blank"
             rel="noopener noreferrer"
             className="md:col-span-2 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-slate-900 to-slate-800 border border-primary/20 hover:border-primary/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
@@ -41,8 +41,8 @@ const Interests: React.FC = () => {
                         <SparklesIcon className="w-3 h-3" />
                         AI POWERED
                     </div>
-                    <h3 className="text-3xl font-bold text-white mb-2 group-hover:text-primary transition-colors">{t('showcase.tool.smartprice')}</h3>
-                    <p className="text-slate-400 text-sm max-w-sm">{t('showcase.tool.smartprice.desc')}</p>
+                    <h3 className="text-3xl font-bold text-white mb-2 group-hover:text-primary transition-colors">{t('showcase.tool.stockmind')}</h3>
+                    <p className="text-slate-400 text-sm max-w-sm">{t('showcase.tool.stockmind.desc')}</p>
                 </div>
                 <div className="bg-white/10 p-3 rounded-full backdrop-blur-md group-hover:bg-primary group-hover:text-white transition-all">
                     <ExternalLinkIcon className="w-6 h-6 text-white" />

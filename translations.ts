@@ -14,7 +14,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "Brand Growth",
     "hero.subtitle_extra": "— Cross-disciplinary Practice of a Business Key Account Manager",
     "hero.desc": "Joe Chen (JOE CHEN), a Business Key Account Manager transformed from a technical background, specializing in the implementation and operation of chain catering brands. Expert in bridging the gap between technical implementation and customer growth.",
-    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection and a creator of life-vlog short videos; I also use Gemini AI to build practical tools—turning both technology and passion into tangible daily value.",
+    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection and a creator of life-vlog short videos; I also use Gemini AI to build tools for work/life efficiency. Both technology and passion create tangible daily value.",
     
     "hero.btn.resume": "View Career Journey",
     "hero.btn.tools": "My Work",
@@ -34,8 +34,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.title": "Value & Passion",
     "showcase.subtitle": "Where digital innovation meets real-world dedication.",
     
-    "showcase.tool.smartprice": "Smart Price AI",
-    "showcase.tool.smartprice.desc": "Intelligent pricing engine. Data-driven value optimization.",
+    "showcase.tool.stockmind": "Stock Mind AI",
+    "showcase.tool.stockmind.desc": "Intelligent quantitative analysis assistant for stock market trends.",
     
     "showcase.tool.omnisales": "OmniSales",
     "showcase.tool.omnisales.desc": "Comprehensive sales dashboard for seamless ops.",
@@ -113,8 +113,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.title": "价值与热爱",
     "showcase.subtitle": "数字化创新与生活激情的融合。",
 
-    "showcase.tool.smartprice": "智能定价 AI",
-    "showcase.tool.smartprice.desc": "数据驱动的智能定价引擎，优化商业价值。",
+    "showcase.tool.stockmind": "股票量化助手",
+    "showcase.tool.stockmind.desc": "基于 AI 的股票市场量化分析与趋势洞察工具。",
 
     "showcase.tool.omnisales": "全渠道销售 (OmniSales)",
     "showcase.tool.omnisales.desc": "无缝运营的综合销售管理仪表板。",
