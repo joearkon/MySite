@@ -14,7 +14,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "Brand Growth",
     "hero.subtitle_extra": "— Cross-disciplinary Practice of a Business Key Account Manager",
     "hero.desc": "Joe Chen (JOE CHEN), a Business Key Account Manager transformed from a technical background, specializing in the implementation and operation of chain catering brands. Expert in bridging the gap between technical implementation and customer growth.",
-    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection and a creator of life-vlog short videos; I also use Gemini AI and ComfyUI to create high-quality fan art, achieving 5,000+ followers in a month. Both technology and passion create tangible daily value.",
+    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection. Actively embracing the AI wave and AIGC new media operations, I leverage cutting-edge tools like Gemini, Nano Banana, and ComfyUI for content creation and short video editing, achieving 5,000+ followers in a single month. Let technology and passion create tangible daily value.",
     
     "hero.btn.resume": "View Career Journey",
     "hero.btn.tools": "My Work",
@@ -27,8 +27,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "tag.ability.val": "Tech × Growth Linkage | Full Project Lifecycle Management",
     "tag.passion.label": "Passion",
     "tag.passion.val": "Gundam Collector | Football Winger | Short Video Creator",
-    "tag.ai.label": "AI Practice",
-    "tag.ai.val": "Gemini & ComfyUI | Fan-Art Creator | Efficiency Optimizer",
+    "tag.ai.label": "AIGC Ops",
+    "tag.ai.val": "Gemini & Nano Banana & ComfyUI | Video Editing",
 
     // Showcase (Merged Projects & Interests)
     "showcase.title": "Value & Passion",
@@ -94,7 +94,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "品牌增长",
     "hero.subtitle_extra": "—— 业务大客户经理的跨界实践",
     "hero.desc": "陈子卓野（JOE CHEN）从技术岗转型的业务大客户经理，深耕连锁餐饮品牌的实施与运营，擅长打通技术落地与客户增长的链路。",
-    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”，也爱用短视频剪生活碎片；更靠 Gemini AI 与 ComfyUI 打造高质量二创，单月实现自媒体涨粉5000+ —— 让技术与热爱，都落地成日常的实在价值。",
+    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”。积极拥抱 AI 浪潮，深谙 AIGC 新媒体运营之道，熟练运用 Gemini、Nano Banana 与 ComfyUI 等前沿工具进行内容创作与短视频剪辑，单月实现自媒体涨粉 5000+ —— 让技术与热爱，都落地成日常的实在价值。",
     
     "hero.btn.resume": "查看个人履历生涯",
     "hero.btn.tools": "我的作品",
@@ -107,8 +107,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "tag.ability.val": "技术×业务链路打通 | 餐饮项目全操盘",
     "tag.passion.label": "热爱",
     "tag.passion.val": "高达粉 | 足球边路 | 短视频创作者",
-    "tag.ai.label": "AI玩咖",
-    "tag.ai.val": "Gemini & ComfyUI 二创 | 用AI提效",
+    "tag.ai.label": "AIGC 运营",
+    "tag.ai.val": "Gemini & Nano Banana & ComfyUI | 短视频剪辑",
 
     // Showcase
     "showcase.title": "价值与热爱",
