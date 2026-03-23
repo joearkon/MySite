@@ -67,7 +67,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.desc": "Whether discussing the business logic of architecture and strategy, or sharing insights on the precision of Gundam modeling and football tactics, I am always open to connecting.",
     "footer.copyright": "Joe Chen. Powered by Gemini.",
     "footer.icp": "ICP No. 2025153381-1",
-    "footer.wechat": "WeChat",
+    "footer.wechat_phone": "WeChat/Phone",
     "footer.douyin": "Douyin",
     "footer.xiaohongshu": "Xiaohongshu",
     "footer.location": "Shanghai",
@@ -80,6 +80,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "chat.placeholder": "Ask about my skills...",
     "chat.online": "Online",
     "chat.title": "Joe's AI Twin",
+    "chat.clear": "Clear",
   },
   zh: {
     // Nav
@@ -147,7 +148,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.desc": "无论是探讨底层架构与战略运营的商业逻辑，还是交流高达模型的精细打磨与足球战术的排兵布阵，都欢迎随时与我联系。",
     "footer.copyright": "陈子卓野. Powered by Gemini.",
     "footer.icp": "沪ICP备2025153381号-1",
-    "footer.wechat": "微信",
+    "footer.wechat_phone": "微信/手机",
     "footer.douyin": "抖音",
     "footer.xiaohongshu": "小红书",
     "footer.location": "居住地：上海",
@@ -160,5 +161,6 @@ export const translations: Record<Language, Record<string, string>> = {
     "chat.placeholder": "问问我的技能...",
     "chat.online": "在线",
     "chat.title": "数字分身",
+    "chat.clear": "清空对话",
   }
 };

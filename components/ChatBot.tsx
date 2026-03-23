@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageRole, ChatMessage } from '../types';
 import { sendMessageToGemini } from '../services/geminiService';
-import { SparklesIcon, SendIcon, XIcon, MessageCircleIcon } from './Icons';
+import { SparklesIcon, SendIcon, XIcon, MessageCircleIcon, TrashIcon } from './Icons';
 import { useApp } from '../App';
 
 const ChatBot: React.FC = () => {
@@ -33,6 +33,10 @@ const ChatBot: React.FC = () => {
       scrollToBottom();
     }
   }, [messages, isOpen]);
+
+  const handleClear = () => {
+    setMessages([{ role: MessageRole.MODEL, text: t('chat.welcome') }]);
+  };
 
   const handleSend = async () => {
     if (!inputValue.trim() || isLoading) return;
@@ -81,9 +85,18 @@ const ChatBot: React.FC = () => {
                 </span>
               </div>
             </div>
-            <button onClick={() => setIsOpen(false)} className="text-textMuted hover:text-textMain transition-colors">
-              <XIcon className="w-5 h-5" />
-            </button>
+            <div className="flex items-center gap-2">
+              <button 
+                onClick={handleClear} 
+                title={t('chat.clear')}
+                className="p-1.5 text-textMuted hover:text-red-500 hover:bg-red-500/10 rounded-lg transition-all"
+              >
+                <TrashIcon className="w-4 h-4" />
+              </button>
+              <button onClick={() => setIsOpen(false)} className="p-1.5 text-textMuted hover:text-textMain hover:bg-textMain/5 rounded-lg transition-all">
+                <XIcon className="w-5 h-5" />
+              </button>
+            </div>
           </div>
 
           {/* Messages */}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useApp } from '../App';
+import { MessageCircle, Phone, Mail, MapPin, Music2, Book } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const { t } = useApp();
@@ -12,43 +13,37 @@ const Footer: React.FC = () => {
           {t('footer.desc')}
         </p>
 
-        {/* Social / Contact QR Codes */}
-        <div className="flex justify-center gap-8 mb-10 flex-wrap">
-          {/* WeChat */}
-          <div className="flex flex-col items-center gap-3 group">
-            <div className="p-2 bg-white rounded-xl shadow-lg transform group-hover:-translate-y-2 transition-transform duration-300">
-                <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzqdpLP22qe6aGVi56zotZtx86D9ZBwAChh0AAtXsaVVQO2zEpHk-GzYE.png" alt="WeChat QR" className="w-32 h-32 object-contain" />
-            </div>
-            <span className="text-sm font-medium text-textMuted group-hover:text-primary transition-colors">{t('footer.wechat')}</span>
-          </div>
-
-          {/* Douyin */}
-          <div className="flex flex-col items-center gap-3 group">
-            <div className="p-2 bg-white rounded-xl shadow-lg transform group-hover:-translate-y-2 transition-transform duration-300">
-                <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAESCrhpwLeELrZFMnDXtQ8kEjtwyHr28gACLDMAAiLeAAFWgo1ZblI4BCI6BA.jpg" alt="Douyin QR" className="w-32 h-32 object-contain" />
-            </div>
-            <span className="text-sm font-medium text-textMuted group-hover:text-secondary transition-colors">{t('footer.douyin')}</span>
-          </div>
-
-          {/* Xiaohongshu */}
-          <div className="flex flex-col items-center gap-3 group">
-            <div className="p-2 bg-white rounded-xl shadow-lg transform group-hover:-translate-y-2 transition-transform duration-300">
-                <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAESCrNpwLdKPrgdzL0kYqSjablqJdOA2gACJzMAAiLeAAFWnrru3SNoyqg6BA.jpg" alt="Xiaohongshu QR" className="w-32 h-32 object-contain" />
-            </div>
-            <span className="text-sm font-medium text-textMuted group-hover:text-red-500 transition-colors">{t('footer.xiaohongshu')}</span>
-          </div>
-        </div>
-
         {/* Direct Contact Info */}
-        <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 mb-12 font-mono text-sm text-textMuted">
-            <a href="tel:13524252203" className="hover:text-primary transition-colors flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 hover:bg-surface">
-               📱 13524252203
+        <div className="flex flex-wrap justify-center items-center gap-3 md:gap-4 mb-12 font-mono text-sm text-textMuted">
+            <a href="tel:13524252203" className="hover:text-primary transition-colors flex items-center gap-3 px-4 py-2 rounded-full border border-textMain/5 hover:bg-surface shadow-sm transition-all">
+               <div className="flex items-center gap-1.5 text-textMain/70">
+                 <MessageCircle className="w-3.5 h-3.5" />
+                 <span className="opacity-30">/</span>
+                 <Phone className="w-3.5 h-3.5" />
+               </div>
+               <span className="font-semibold text-textMain/90">{t('footer.wechat_phone')}</span>
+               <span className="opacity-60">13524252203</span>
             </a>
-             <a href="mailto:313455055@qq.com" className="hover:text-primary transition-colors flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 hover:bg-surface">
-               📧 313455055@qq.com
+
+            <a href="https://v.douyin.com/9rcj4rkPCEg/" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 hover:bg-surface shadow-sm transition-all">
+               <Music2 className="w-3.5 h-3.5 text-textMain/70" />
+               <span className="font-semibold text-textMain/90">{t('footer.douyin')}</span>
+               <span className="opacity-60">6888zy1023</span>
             </a>
-            <span className="flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 bg-surface/50">
-               📍 {t('footer.location')}
+
+            <a href="https://www.xiaohongshu.com/user/profile/5c0213aa6b58b724ed0a49ce" target="_blank" rel="noreferrer" className="hover:text-red-500 transition-colors flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 hover:bg-surface shadow-sm transition-all">
+               <Book className="w-3.5 h-3.5 text-textMain/70" />
+               <span className="font-semibold text-textMain/90">{t('footer.xiaohongshu')}</span>
+               <span className="opacity-60">566860318</span>
+            </a>
+
+             <a href="mailto:313455055@qq.com" className="hover:text-primary transition-colors flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 hover:bg-surface shadow-sm transition-all">
+               <Mail className="w-3.5 h-3.5 text-textMain/70" />
+               <span className="opacity-60">313455055@qq.com</span>
+            </a>
+            <span className="flex items-center gap-2 px-4 py-2 rounded-full border border-textMain/5 bg-surface/50 shadow-sm">
+               <MapPin className="w-3.5 h-3.5 text-textMain/70" />
+               <span className="opacity-60">{t('footer.location')}</span>
             </span>
         </div>
 
