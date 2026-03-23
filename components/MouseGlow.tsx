@@ -16,7 +16,7 @@ const MouseGlow: React.FC = () => {
     <div
       className="pointer-events-none fixed inset-0 z-0 transition-opacity duration-300"
       style={{
-        background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(139, 92, 246, 0.05), transparent 40%)`,
+        background: `radial-gradient(600px circle at ${position.x}px ${position.y}px, rgba(168, 85, 247, 0.05), transparent 40%)`,
       }}
     />
   );

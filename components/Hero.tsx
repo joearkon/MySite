@@ -7,8 +7,8 @@ const Hero: React.FC = () => {
 
   // Helper to render a tag group
   const TagItem = ({ label, value, icon }: { label: string, value: string, icon: React.ReactNode }) => (
-    <div className="flex flex-col gap-1 p-3 rounded-xl bg-surface/50 border border-textMain/5 hover:border-primary/20 transition-colors backdrop-blur-sm">
-      <div className="flex items-center gap-2 text-xs font-bold text-primary uppercase tracking-wider">
+    <div className="flex flex-col gap-1 p-3 rounded-xl bg-surface/50 border border-textMain/5 hover:border-secondary/20 transition-colors backdrop-blur-sm">
+      <div className="flex items-center gap-2 text-xs font-bold text-secondary uppercase tracking-wider">
         {icon}
         {label}
       </div>
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
         {/* Main Title */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4 text-textMain animate-slide-up [animation-delay:200ms] leading-[1.1]">
           {t('hero.title')} <br className="md:hidden" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-500 to-secondary">
             {t('hero.titleHighlight')}
           </span>
         </h1>

@@ -33,8 +33,8 @@ const RibbonBackground: React.FC = () => {
       </motion.div>
 
       {/* Atmospheric Glows */}
-      <div className="absolute top-[-10%] left-[-10%] w-[60%] h-[60%] bg-violet-500/5 blur-[120px] rounded-full animate-pulse will-change-[opacity]" />
-      <div className="absolute bottom-[-10%] right-[-10%] w-[70%] h-[70%] bg-indigo-500/5 blur-[150px] rounded-full will-change-[opacity]" />
+      <div className="absolute top-[-10%] left-[-10%] w-[60%] h-[60%] bg-slate-500/5 blur-[120px] rounded-full animate-pulse will-change-[opacity]" />
+      <div className="absolute bottom-[-10%] right-[-10%] w-[70%] h-[70%] bg-blue-500/5 blur-[150px] rounded-full will-change-[opacity]" />
 
       {/* Flowing Ribbons SVG */}
       <svg
@@ -45,18 +45,18 @@ const RibbonBackground: React.FC = () => {
         style={{ filter: 'blur(40px)' }} // Use CSS blur instead of SVG feGaussianBlur for better performance
       >
         <defs>
-          {/* Gradient 1: Violet to Indigo to Slate */}
+          {/* Gradient 1: Slate to Purple to Gray */}
           <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#8b5cf6" stopOpacity="0.4" />
-            <stop offset="50%" stopColor="#6366f1" stopOpacity="0.3" />
-            <stop offset="100%" stopColor="#475569" stopOpacity="0.2" />
+            <stop offset="0%" stopColor="#475569" stopOpacity="0.4" />
+            <stop offset="50%" stopColor="#a855f7" stopOpacity="0.3" />
+            <stop offset="100%" stopColor="#94a3b8" stopOpacity="0.2" />
           </linearGradient>
           
-          {/* Gradient 2: Soft Pink to Violet to Deep Blue */}
+          {/* Gradient 2: Sky to Slate to Purple */}
           <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#f472b6" stopOpacity="0.3" />
-            <stop offset="50%" stopColor="#8b5cf6" stopOpacity="0.2" />
-            <stop offset="100%" stopColor="#1e3a8a" stopOpacity="0.1" />
+            <stop offset="0%" stopColor="#0ea5e9" stopOpacity="0.3" />
+            <stop offset="50%" stopColor="#64748b" stopOpacity="0.2" />
+            <stop offset="100%" stopColor="#a855f7" stopOpacity="0.1" />
           </linearGradient>
         </defs>
 

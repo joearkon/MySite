@@ -127,7 +127,7 @@ const ChatBot: React.FC = () => {
               <button 
                 onClick={handleSend}
                 disabled={isLoading || !inputValue.trim()}
-                className="absolute right-1 top-1 p-2 bg-primary rounded-full text-white hover:bg-rose-600 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                className="absolute right-1 top-1 p-2 bg-primary rounded-full text-white hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
                 <SendIcon className="w-4 h-4" />
               </button>
@@ -143,7 +143,7 @@ const ChatBot: React.FC = () => {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={`p-4 rounded-full shadow-lg shadow-primary/20 transition-all duration-300 transform hover:scale-110 active:scale-95 ${
-          isOpen ? 'bg-surface rotate-90 opacity-0 pointer-events-none absolute' : 'bg-primary hover:bg-rose-600'
+          isOpen ? 'bg-surface rotate-90 opacity-0 pointer-events-none absolute' : 'bg-primary hover:bg-slate-700'
         }`}
       >
         <MessageCircleIcon className="w-6 h-6 text-white" />

@@ -30,7 +30,7 @@ const Interests: React.FC = () => {
             href="https://stock-mind.kunkun1023.xyz/#/market"
             target="_blank"
             rel="noopener noreferrer"
-            className="md:col-span-4 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-rose-900/80 to-violet-900/80 border border-rose-500/20 hover:border-rose-500/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
+            className="md:col-span-4 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-slate-900/80 to-purple-900/80 border border-slate-500/20 hover:border-purple-500/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
           >
             {/* Animated Scan Line Effect & Texture */}
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
