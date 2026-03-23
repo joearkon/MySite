@@ -10,11 +10,11 @@ export const translations: Record<Language, Record<string, string>> = {
     
     // Hero
     "hero.name": "Joe Chen (Chen Zizhuoye)",
-    "hero.title": "From Tech Implementation to",
-    "hero.titleHighlight": "Brand Growth",
-    "hero.subtitle_extra": "— Cross-disciplinary Practice of a Business Key Account Manager",
+    "hero.title": "From Business Ops to",
+    "hero.titleHighlight": "AI-Driven Growth",
+    "hero.subtitle_extra": "— A Key Account Manager bridging Tech Implementation and AIGC Innovation",
     "hero.desc": "Joe Chen (JOE CHEN), a Business Key Account Manager transformed from a technical background, specializing in the implementation and operation of chain catering brands. Expert in bridging the gap between technical implementation and customer growth.",
-    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection. Actively embracing the AI wave and AIGC new media operations, I leverage cutting-edge tools like Gemini, Nano Banana, and ComfyUI for content creation and short video editing, achieving 5,000+ followers in a single month. Let technology and passion create tangible daily value.",
+    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection. Driven by a passion for gaming and anime culture, I actively embrace the AI wave, leveraging large model tools like Gemini and ComfyUI for content creation and video editing. This enabled a 0-to-1 breakthrough, achieving 5,000+ followers on social media in a single month. Let technology and passion create tangible daily value.",
     
     "hero.btn.resume": "View Career Journey",
     "hero.btn.tools": "My Work",
@@ -22,11 +22,11 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Hero Tags
     "tag.identity.label": "Identity",
-    "tag.identity.val": "Tech-to-Business KAM | Chain Catering Ops Expert",
+    "tag.identity.val": "Tech-to-Business KAM | Chain Catering Ops Expert | Content Creator",
     "tag.ability.label": "Capabilities",
-    "tag.ability.val": "Tech × Growth Linkage | Full Project Lifecycle Management",
+    "tag.ability.val": "Tech × Growth Linkage | Full Project Lifecycle Management | AI Creation",
     "tag.passion.label": "Passion",
-    "tag.passion.val": "Gundam Collector | Football Winger | Short Video Creator",
+    "tag.passion.val": "Gundam Collector | Football Winger | Gaming & Anime",
     "tag.ai.label": "AIGC Ops",
     "tag.ai.val": "Gemini & Nano Banana & ComfyUI | Video Editing",
 
@@ -38,7 +38,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.tool.stockmind.desc": "Intelligent quantitative analysis assistant for stock market trends.",
     
     "showcase.tool.aifanart": "AI Fan-Art & Social Growth",
-    "showcase.tool.aifanart.desc": "Leveraged Gemini AI (storyboarding) & ComfyUI (character design) to create game/anime fan art, achieving 5,000+ followers on Xiaohongshu and Douyin in one month. Passionate about exploring AI efficiency conversion and empowering daily content creation with AI tools.",
+    "showcase.tool.aifanart.desc": "Driven by a passion for gaming and anime culture, I leverage Gemini AI for storyboarding and ComfyUI for high-quality character fan-art. Through these creative works, I actively manage and operate content channels on Douyin and Xiaohongshu, deeply integrating AI tools into daily new media practices.",
     
     "showcase.tool.resume": "My Resume",
     "showcase.tool.resume.desc": "The professional journey.",
@@ -90,11 +90,11 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Hero
     "hero.name": "陈子卓野 (Joe Chen)",
-    "hero.title": "从技术落地到",
-    "hero.titleHighlight": "品牌增长",
-    "hero.subtitle_extra": "—— 业务大客户经理的跨界实践",
+    "hero.title": "从业务落地到",
+    "hero.titleHighlight": "AI 赋能增长",
+    "hero.subtitle_extra": "—— 懂技术、精运营、玩转 AIGC 的大客户经理",
     "hero.desc": "陈子卓野（JOE CHEN）从技术岗转型的业务大客户经理，深耕连锁餐饮品牌的实施与运营，擅长打通技术落地与客户增长的链路。",
-    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”。积极拥抱 AI 浪潮，深谙 AIGC 新媒体运营之道，熟练运用 Gemini、Nano Banana 与 ComfyUI 等前沿工具进行内容创作与短视频剪辑，单月实现自媒体涨粉 5000+ —— 让技术与热爱，都落地成日常的实在价值。",
+    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”。热爱游戏与动漫文化，积极拥抱 AI 浪潮，熟练运用 Gemini、ComfyUI 等大模型工具进行内容创作与短视频剪辑，在自媒体平台实现了从 0 到 1、单月涨粉 5000+ 的突破 —— 让技术与热爱，都落地成日常的实在价值。",
     
     "hero.btn.resume": "查看个人履历生涯",
     "hero.btn.tools": "我的作品",
@@ -102,11 +102,11 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Hero Tags
     "tag.identity.label": "身份",
-    "tag.identity.val": "技术转业务大客户经理 | 连锁餐饮品牌运营专家",
+    "tag.identity.val": "技术转业务大客户经理 | 连锁餐饮品牌运营专家 | 自媒体博主",
     "tag.ability.label": "能力",
-    "tag.ability.val": "技术×业务链路打通 | 餐饮项目全操盘",
+    "tag.ability.val": "技术×业务链路打通 | 餐饮项目全操盘 | AI 创作",
     "tag.passion.label": "热爱",
-    "tag.passion.val": "高达粉 | 足球边路 | 短视频创作者",
+    "tag.passion.val": "高达粉 | 足球边路 | 游戏动漫",
     "tag.ai.label": "AIGC 运营",
     "tag.ai.val": "Gemini & Nano Banana & ComfyUI | 短视频剪辑",
 
@@ -118,7 +118,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.tool.stockmind.desc": "基于 AI 的股票市场量化分析与趋势洞察工具。",
 
     "showcase.tool.aifanart": "AI 二创与自媒体增长",
-    "showcase.tool.aifanart.desc": "熟练运用 Gemini AI 进行剧本创作与分镜设计，结合 ComfyUI 打造高质量游戏动漫二创角色。具备敏锐的新媒体运营网感，单月内成功在小红书与抖音平台实现 5000+ 粉丝增长。擅长思考 AI 工具的效率转换，并将其深度赋能于日常的内容创作与运营中。",
+    "showcase.tool.aifanart.desc": "热爱游戏与动漫文化，熟练运用 Gemini AI 进行剧本创作与分镜设计，结合 ComfyUI 打造高质量二创角色。通过这些二创作品，在抖音与小红书平台进行持续的内容创作与账号运营，将 AI 工具深度赋能于日常的新媒体实践中。",
 
     "showcase.tool.resume": "个人简历",
     "showcase.tool.resume.desc": "职业旅程可视化。",

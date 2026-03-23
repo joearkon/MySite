@@ -73,8 +73,8 @@ const Interests: React.FC = () => {
                 </div>
                 <div className="flex gap-4 shrink-0">
                     <div className="flex flex-col items-center justify-center bg-black/30 rounded-xl p-4 border border-white/10 backdrop-blur-sm">
-                        <span className="text-2xl font-bold text-white">5000+</span>
-                        <span className="text-xs text-pink-200/70 uppercase tracking-wider mt-1">Followers / Month</span>
+                        <span className="text-2xl font-bold text-white">AIGC</span>
+                        <span className="text-xs text-pink-200/70 uppercase tracking-wider mt-1">Creator</span>
                     </div>
                 </div>
             </div>

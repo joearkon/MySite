@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import ScrollProgress from './components/ScrollProgress';
 import BackToTop from './components/BackToTop';
 import MouseGlow from './components/MouseGlow';
+import WeatherWidget from './components/WeatherWidget';
 import { SunIcon, MoonIcon, TranslateIcon } from './components/Icons';
 import { AppContextType, Language, Theme } from './types';
 import { translations } from './translations';
@@ -63,8 +64,13 @@ const App: React.FC = () => {
 
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-40 p-6 flex justify-between items-center backdrop-blur-md bg-background/80 border-b border-surface">
-          <div className="font-bold text-xl tracking-tighter hover:text-primary transition-colors cursor-default text-textMain">
-            JOE<span className="text-primary">.CHEN</span>
+          <div className="flex items-center gap-6">
+            <div className="font-bold text-xl tracking-tighter hover:text-primary transition-colors cursor-default text-textMain">
+              JOE<span className="text-primary">.CHEN</span>
+            </div>
+            <div className="hidden sm:block">
+              <WeatherWidget />
+            </div>
           </div>
           
           <div className="flex items-center gap-6">
