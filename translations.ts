@@ -14,7 +14,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "Brand Growth",
     "hero.subtitle_extra": "— Cross-disciplinary Practice of a Business Key Account Manager",
     "hero.desc": "Joe Chen (JOE CHEN), a Business Key Account Manager transformed from a technical background, specializing in the implementation and operation of chain catering brands. Expert in bridging the gap between technical implementation and customer growth.",
-    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection and a creator of life-vlog short videos; I also use Gemini AI to build tools for work/life efficiency. Both technology and passion create tangible daily value.",
+    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection and a creator of life-vlog short videos; I also use Gemini AI and ComfyUI to create high-quality fan art, achieving 5,000+ followers in a month. Both technology and passion create tangible daily value.",
     
     "hero.btn.resume": "View Career Journey",
     "hero.btn.tools": "My Work",
@@ -28,7 +28,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "tag.passion.label": "Passion",
     "tag.passion.val": "Gundam Collector | Football Winger | Short Video Creator",
     "tag.ai.label": "AI Practice",
-    "tag.ai.val": "Gemini Tool Dev | Efficiency Optimizer",
+    "tag.ai.val": "Gemini & ComfyUI | Fan-Art Creator | Efficiency Optimizer",
 
     // Showcase (Merged Projects & Interests)
     "showcase.title": "Value & Passion",
@@ -37,8 +37,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.tool.stockmind": "Stock Mind AI",
     "showcase.tool.stockmind.desc": "Intelligent quantitative analysis assistant for stock market trends.",
     
-    "showcase.tool.omnisales": "OmniSales",
-    "showcase.tool.omnisales.desc": "Comprehensive sales dashboard for seamless ops.",
+    "showcase.tool.aifanart": "AI Fan-Art & Social Growth",
+    "showcase.tool.aifanart.desc": "Leveraged Gemini AI (storyboarding) & ComfyUI (character design) to create game/anime fan art, achieving 5,000+ followers on Xiaohongshu and Douyin in one month. Passionate about exploring AI efficiency conversion and empowering daily content creation with AI tools.",
     
     "showcase.tool.resume": "My Resume",
     "showcase.tool.resume.desc": "The professional journey.",
@@ -69,6 +69,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.icp": "ICP No. 2025153381-1",
     "footer.wechat": "WeChat",
     "footer.douyin": "Douyin",
+    "footer.xiaohongshu": "Xiaohongshu",
     "footer.location": "Shanghai",
     
     "footer.easterEgg.pets": "Living with a 'Cross-species Family': An 8-year-old 'Veteran' British Shorthair + A Clingy Lorikeet + A Golden Hamster (The Escape Artist) ✨",
@@ -93,7 +94,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "品牌增长",
     "hero.subtitle_extra": "—— 业务大客户经理的跨界实践",
     "hero.desc": "陈子卓野（JOE CHEN）从技术岗转型的业务大客户经理，深耕连锁餐饮品牌的实施与运营，擅长打通技术落地与客户增长的链路。",
-    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”，也爱用短视频剪生活碎片；更靠 AI Gemini 捣鼓出不少工作生活的实用小工具 —— 让技术与热爱，都落地成日常的实在价值。",
+    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”，也爱用短视频剪生活碎片；更靠 Gemini AI 与 ComfyUI 打造高质量二创，单月实现自媒体涨粉5000+ —— 让技术与热爱，都落地成日常的实在价值。",
     
     "hero.btn.resume": "查看个人履历生涯",
     "hero.btn.tools": "我的作品",
@@ -107,7 +108,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "tag.passion.label": "热爱",
     "tag.passion.val": "高达粉 | 足球边路 | 短视频创作者",
     "tag.ai.label": "AI玩咖",
-    "tag.ai.val": "Gemini工具开发者 | 用AI提效",
+    "tag.ai.val": "Gemini & ComfyUI 二创 | 用AI提效",
 
     // Showcase
     "showcase.title": "价值与热爱",
@@ -116,8 +117,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.tool.stockmind": "股票量化助手",
     "showcase.tool.stockmind.desc": "基于 AI 的股票市场量化分析与趋势洞察工具。",
 
-    "showcase.tool.omnisales": "全渠道销售 (OmniSales)",
-    "showcase.tool.omnisales.desc": "无缝运营的综合销售管理仪表板。",
+    "showcase.tool.aifanart": "AI 二创与自媒体增长",
+    "showcase.tool.aifanart.desc": "熟练运用 Gemini AI 进行剧本创作与分镜设计，结合 ComfyUI 打造高质量游戏动漫二创角色。具备敏锐的新媒体运营网感，单月内成功在小红书与抖音平台实现 5000+ 粉丝增长。擅长思考 AI 工具的效率转换，并将其深度赋能于日常的内容创作与运营中。",
 
     "showcase.tool.resume": "个人简历",
     "showcase.tool.resume.desc": "职业旅程可视化。",
@@ -148,6 +149,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "footer.icp": "沪ICP备2025153381号-1",
     "footer.wechat": "微信",
     "footer.douyin": "抖音",
+    "footer.xiaohongshu": "小红书",
     "footer.location": "居住地：上海",
 
     "footer.easterEgg.pets": "养着 “跨物种家庭成员”：8 岁蓝猫老干部 + 粘人吸蜜鹦鹉 + 金丝熊越狱小能手 ✨",

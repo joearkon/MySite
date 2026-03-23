@@ -30,49 +30,55 @@ const Interests: React.FC = () => {
             href="https://stock-mind.kunkun1023.xyz/#/market"
             target="_blank"
             rel="noopener noreferrer"
-            className="md:col-span-2 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-slate-900 to-slate-800 border border-primary/20 hover:border-primary/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
+            className="md:col-span-4 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-indigo-900/80 to-blue-900/80 border border-blue-500/20 hover:border-blue-500/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
           >
-            {/* Animated Scan Line Effect */}
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/10 to-transparent opacity-0 group-hover:opacity-100 animate-scan pointer-events-none"></div>
+            {/* Animated Scan Line Effect & Texture */}
+            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 animate-scan pointer-events-none"></div>
+            <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-blue-500/10 to-transparent pointer-events-none"></div>
             
-            <div className="relative z-10 flex items-start justify-between">
-                <div>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/20 text-primary text-xs font-mono mb-4 border border-primary/20">
+            <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="flex-1">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-mono mb-4 border border-blue-500/20">
                         <SparklesIcon className="w-3 h-3" />
-                        AI POWERED
+                        QUANTITATIVE ANALYSIS
                     </div>
-                    <h3 className="text-3xl font-bold text-white mb-2 group-hover:text-primary transition-colors">{t('showcase.tool.stockmind')}</h3>
-                    <p className="text-slate-400 text-sm max-w-sm">{t('showcase.tool.stockmind.desc')}</p>
+                    <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-blue-300 transition-colors">{t('showcase.tool.stockmind')}</h3>
+                    <p className="text-blue-100/80 text-sm max-w-3xl leading-relaxed">{t('showcase.tool.stockmind.desc')}</p>
                 </div>
-                <div className="bg-white/10 p-3 rounded-full backdrop-blur-md group-hover:bg-primary group-hover:text-white transition-all">
-                    <ExternalLinkIcon className="w-6 h-6 text-white" />
+                <div className="flex gap-4 shrink-0 items-center">
+                    <div className="flex flex-col items-center justify-center bg-black/30 rounded-xl p-4 border border-white/10 backdrop-blur-sm group-hover:bg-blue-500/20 transition-colors">
+                        <ExternalLinkIcon className="w-6 h-6 text-white group-hover:text-blue-300 transition-colors mb-2" />
+                        <span className="text-xs text-blue-200/70 uppercase tracking-wider">Launch App</span>
+                    </div>
                 </div>
             </div>
           </a>
 
-          {/* OmniSales */}
-          <a 
-            href="https://omnisalesmeiha-i2coclrf.edgeone.run/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="md:col-span-2 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-slate-900 to-cyan-900/40 border border-secondary/20 hover:border-secondary/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
+          {/* AI Fan-Art & Social Growth */}
+          <div 
+            className="md:col-span-4 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-purple-900/80 to-pink-900/80 border border-pink-500/20 hover:border-pink-500/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
           >
-             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10"></div>
+             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
+             <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-pink-500/10 to-transparent pointer-events-none"></div>
              
-             <div className="relative z-10 flex items-start justify-between">
-                <div>
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/20 text-secondary text-xs font-mono mb-4 border border-secondary/20">
-                        <svg className="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20"/><path d="M2 12h20"/></svg>
-                        OPERATIONS
+             <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="flex-1">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pink-500/20 text-pink-300 text-xs font-mono mb-4 border border-pink-500/20">
+                        <SparklesIcon className="w-3 h-3" />
+                        CONTENT CREATION & GROWTH
                     </div>
-                    <h3 className="text-3xl font-bold text-white mb-2 group-hover:text-secondary transition-colors">{t('showcase.tool.omnisales')}</h3>
-                    <p className="text-slate-400 text-sm max-w-sm">{t('showcase.tool.omnisales.desc')}</p>
+                    <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-pink-300 transition-colors">{t('showcase.tool.aifanart')}</h3>
+                    <p className="text-pink-100/80 text-sm max-w-3xl leading-relaxed">{t('showcase.tool.aifanart.desc')}</p>
                 </div>
-                <div className="bg-white/10 p-3 rounded-full backdrop-blur-md group-hover:bg-secondary group-hover:text-white transition-all">
-                    <ExternalLinkIcon className="w-6 h-6 text-white" />
+                <div className="flex gap-4 shrink-0">
+                    <div className="flex flex-col items-center justify-center bg-black/30 rounded-xl p-4 border border-white/10 backdrop-blur-sm">
+                        <span className="text-2xl font-bold text-white">5000+</span>
+                        <span className="text-xs text-pink-200/70 uppercase tracking-wider mt-1">Followers / Month</span>
+                    </div>
                 </div>
             </div>
-          </a>
+          </div>
 
           {/* --- ROW 2 & 3: PASSION & HOBBIES (Pure Visuals) --- */}
           {/* Layout: 3 Gundam images on top, 2 Football images below */}

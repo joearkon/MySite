@@ -25,9 +25,17 @@ const Footer: React.FC = () => {
           {/* Douyin */}
           <div className="flex flex-col items-center gap-3 group">
             <div className="p-2 bg-white rounded-xl shadow-lg transform group-hover:-translate-y-2 transition-transform duration-300">
-                <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzqhpLP23gelV-fXV3BnEtYkkbd2eyAAChx0AAtXsaVVnGPO4jTis0jYE.png" alt="Douyin QR" className="w-32 h-32 object-contain" />
+                <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAESCrhpwLeELrZFMnDXtQ8kEjtwyHr28gACLDMAAiLeAAFWgo1ZblI4BCI6BA.jpg" alt="Douyin QR" className="w-32 h-32 object-contain" />
             </div>
             <span className="text-sm font-medium text-textMuted group-hover:text-secondary transition-colors">{t('footer.douyin')}</span>
+          </div>
+
+          {/* Xiaohongshu */}
+          <div className="flex flex-col items-center gap-3 group">
+            <div className="p-2 bg-white rounded-xl shadow-lg transform group-hover:-translate-y-2 transition-transform duration-300">
+                <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAESCrNpwLdKPrgdzL0kYqSjablqJdOA2gACJzMAAiLeAAFWnrru3SNoyqg6BA.jpg" alt="Xiaohongshu QR" className="w-32 h-32 object-contain" />
+            </div>
+            <span className="text-sm font-medium text-textMuted group-hover:text-red-500 transition-colors">{t('footer.xiaohongshu')}</span>
           </div>
         </div>
 

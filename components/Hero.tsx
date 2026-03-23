@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
         <div className="mb-6 relative group animate-slide-up">
             <div className="absolute inset-0 bg-gradient-to-r from-primary to-secondary rounded-full blur opacity-50 group-hover:opacity-100 transition-opacity duration-500"></div>
             <img
-              src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAELzq1pLP46fyAUFrzm-fNo9D_Cx7iKpwACjB0AAtXsaVVSpwquxRGy5jYE.jpg"
+              src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAESCqxpwLYLP8Jhn6EnyGll64FUqPbl9gACHjMAAiLeAAFWZRBcwlspcNM6BA.jpg"
               alt="Joe Chen"
               className="relative w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-surface shadow-2xl"
             />
