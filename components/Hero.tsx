@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
             href="https://my-resume.kunkun1023.xyz" 
             target="_blank"
             rel="noopener noreferrer"
-            className="group px-8 py-3 rounded-full bg-primary text-white font-bold hover:bg-indigo-600 transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary/25"
+            className="group px-8 py-3 rounded-full bg-gradient-to-r from-primary to-secondary text-white font-bold hover:scale-105 transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary/25"
           >
             {t('hero.btn.resume')}
             <ExternalLinkIcon className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity" />

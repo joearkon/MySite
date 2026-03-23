@@ -36,8 +36,8 @@
             colors: {
               background: 'var(--bg-background)',
               surface: 'var(--bg-surface)',
-              primary: 'var(--color-primary)',
-              secondary: 'var(--color-secondary)',
+              primary: '#f43f5e', // rose-500
+              secondary: '#8b5cf6', // violet-500
               textMain: 'var(--text-main)',
               textMuted: 'var(--text-muted)',
             },
@@ -78,21 +78,17 @@
     </script>
     <style>
       :root {
-        --bg-background: #ffffff;
-        --bg-surface: #f3f4f6;
-        --text-main: #000000;
-        --text-muted: #4b5563;
-        --color-primary: #000000;
-        --color-secondary: #4b5563;
+        --bg-background: #f8fafc; /* slate-50 */
+        --bg-surface: #ffffff;    /* white */
+        --text-main: #0f172a;     /* slate-900 */
+        --text-muted: #64748b;    /* slate-500 */
       }
 
       .dark {
-        --bg-background: #000000;
-        --bg-surface: #111111;
-        --text-main: #ffffff;
-        --text-muted: #9ca3af;
-        --color-primary: #ffffff;
-        --color-secondary: #9ca3af;
+        --bg-background: #0f172a; /* slate-900 */
+        --bg-surface: #1e293b;    /* slate-800 */
+        --text-main: #f1f5f9;     /* slate-100 */
+        --text-muted: #94a3b8;    /* slate-400 */
       }
 
       body {
