@@ -38,7 +38,7 @@ const Lifestyle: React.FC = () => {
   ];
 
   return (
-    <section id="life" className="py-24 px-6 bg-background relative border-t border-surface/50">
+    <section id="life" className="py-24 px-6 bg-transparent relative border-t border-surface/50">
       <div className="max-w-7xl mx-auto mb-12 flex flex-col md:flex-row justify-between items-end">
         <div>
            <h2 className="text-3xl md:text-4xl font-bold text-textMain mb-3">{t('lifestyle.title')}</h2>

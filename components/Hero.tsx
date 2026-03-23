@@ -19,12 +19,7 @@ const Hero: React.FC = () => {
   );
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pt-24 pb-12 md:pt-20">
-      {/* Background Blobs */}
-      <div className="absolute top-0 -left-4 w-72 h-72 bg-primary/20 rounded-full mix-blend-multiply dark:mix-blend-normal filter blur-3xl opacity-50 animate-blob"></div>
-      <div className="absolute top-0 -right-4 w-72 h-72 bg-secondary/20 rounded-full mix-blend-multiply dark:mix-blend-normal filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
-      <div className="absolute -bottom-8 left-20 w-72 h-72 bg-purple-500/20 rounded-full mix-blend-multiply dark:mix-blend-normal filter blur-3xl opacity-50 animate-blob animation-delay-4000"></div>
-
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pt-32 pb-12 md:pt-40">
       <div className="relative z-10 max-w-5xl text-center flex flex-col items-center">
         {/* Avatar */}
         <div className="mb-6 relative group animate-slide-up">

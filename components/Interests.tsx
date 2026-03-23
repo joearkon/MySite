@@ -6,7 +6,7 @@ const Interests: React.FC = () => {
   const { t } = useApp();
 
   return (
-    <section id="showcase" className="py-24 px-4 md:px-8 relative bg-surface/30">
+    <section id="showcase" className="py-24 px-4 md:px-8 relative bg-transparent">
        {/* Background accent */}
        <div className="absolute right-0 top-0 w-1/2 h-1/2 bg-primary/5 rounded-bl-full filter blur-3xl pointer-events-none"></div>
 
@@ -30,26 +30,26 @@ const Interests: React.FC = () => {
             href="https://stock-mind.kunkun1023.xyz/#/market"
             target="_blank"
             rel="noopener noreferrer"
-            className="md:col-span-4 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-indigo-900/80 to-blue-900/80 border border-blue-500/20 hover:border-blue-500/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
+            className="md:col-span-4 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-zinc-900/90 to-black/90 border border-white/10 hover:border-white/30 transition-all duration-500 shadow-xl flex flex-col justify-center"
           >
             {/* Animated Scan Line Effect & Texture */}
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 animate-scan pointer-events-none"></div>
-            <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-blue-500/10 to-transparent pointer-events-none"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 animate-scan pointer-events-none"></div>
+            <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-white/5 to-transparent pointer-events-none"></div>
             
             <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
                 <div className="flex-1">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-mono mb-4 border border-blue-500/20">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white/80 text-xs font-mono mb-4 border border-white/10">
                         <SparklesIcon className="w-3 h-3" />
                         QUANTITATIVE ANALYSIS
                     </div>
-                    <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-blue-300 transition-colors">{t('showcase.tool.stockmind')}</h3>
-                    <p className="text-blue-100/80 text-sm max-w-3xl leading-relaxed">{t('showcase.tool.stockmind.desc')}</p>
+                    <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-white transition-colors">{t('showcase.tool.stockmind')}</h3>
+                    <p className="text-white/70 text-sm max-w-3xl leading-relaxed">{t('showcase.tool.stockmind.desc')}</p>
                 </div>
                 <div className="flex gap-4 shrink-0 items-center">
-                    <div className="flex flex-col items-center justify-center bg-black/30 rounded-xl p-4 border border-white/10 backdrop-blur-sm group-hover:bg-blue-500/20 transition-colors">
-                        <ExternalLinkIcon className="w-6 h-6 text-white group-hover:text-blue-300 transition-colors mb-2" />
-                        <span className="text-xs text-blue-200/70 uppercase tracking-wider">Launch App</span>
+                    <div className="flex flex-col items-center justify-center bg-black/30 rounded-xl p-4 border border-white/10 backdrop-blur-sm group-hover:bg-white/10 transition-colors">
+                        <ExternalLinkIcon className="w-6 h-6 text-white group-hover:text-white transition-colors mb-2" />
+                        <span className="text-xs text-white/70 uppercase tracking-wider">Launch App</span>
                     </div>
                 </div>
             </div>
@@ -57,24 +57,24 @@ const Interests: React.FC = () => {
 
           {/* AI Fan-Art & Social Growth */}
           <div 
-            className="md:col-span-4 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-purple-900/80 to-pink-900/80 border border-pink-500/20 hover:border-pink-500/60 transition-all duration-500 shadow-xl flex flex-col justify-center"
+            className="md:col-span-4 md:row-span-1 group relative rounded-2xl overflow-hidden p-8 bg-gradient-to-r from-zinc-800/90 to-zinc-900/90 border border-white/10 hover:border-white/30 transition-all duration-500 shadow-xl flex flex-col justify-center"
           >
              <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
-             <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-pink-500/10 to-transparent pointer-events-none"></div>
+             <div className="absolute right-0 top-0 w-1/2 h-full bg-gradient-to-l from-white/5 to-transparent pointer-events-none"></div>
              
              <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
                 <div className="flex-1">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pink-500/20 text-pink-300 text-xs font-mono mb-4 border border-pink-500/20">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-white/80 text-xs font-mono mb-4 border border-white/10">
                         <SparklesIcon className="w-3 h-3" />
                         CONTENT CREATION & GROWTH
                     </div>
-                    <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-pink-300 transition-colors">{t('showcase.tool.aifanart')}</h3>
-                    <p className="text-pink-100/80 text-sm max-w-3xl leading-relaxed">{t('showcase.tool.aifanart.desc')}</p>
+                    <h3 className="text-3xl font-bold text-white mb-3 group-hover:text-white transition-colors">{t('showcase.tool.aifanart')}</h3>
+                    <p className="text-white/70 text-sm max-w-3xl leading-relaxed">{t('showcase.tool.aifanart.desc')}</p>
                 </div>
                 <div className="flex gap-4 shrink-0">
                     <div className="flex flex-col items-center justify-center bg-black/30 rounded-xl p-4 border border-white/10 backdrop-blur-sm">
                         <span className="text-2xl font-bold text-white">AIGC</span>
-                        <span className="text-xs text-pink-200/70 uppercase tracking-wider mt-1">Creator</span>
+                        <span className="text-xs text-white/70 uppercase tracking-wider mt-1">Creator</span>
                     </div>
                 </div>
             </div>

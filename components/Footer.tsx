@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
   const { t } = useApp();
 
   return (
-    <footer id="contact" className="py-12 text-center border-t border-textMain/10 bg-background relative overflow-hidden">
+    <footer id="contact" className="py-12 text-center border-t border-textMain/10 bg-transparent relative overflow-hidden">
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         <h2 className="text-2xl font-bold mb-6 text-textMain">{t('footer.title')}</h2>
         <p className="text-textMuted mb-10 max-w-lg mx-auto leading-relaxed">
