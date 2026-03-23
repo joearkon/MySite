@@ -14,7 +14,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "AI-Driven Growth",
     "hero.subtitle_extra": "— A Key Account Manager bridging Tech Implementation and AIGC Innovation",
     "hero.desc": "Joe Chen (JOE CHEN), a Business Key Account Manager transformed from a technical background, specializing in the implementation and operation of chain catering brands. Expert in bridging the gap between technical implementation and customer growth.",
-    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection. Driven by a passion for gaming and anime culture, I actively embrace the AI wave, leveraging large model tools like Gemini and ComfyUI for content creation and video editing. This enabled a 0-to-1 breakthrough, achieving 5,000+ followers on social media in a single month. Let technology and passion create tangible daily value.",
+    "hero.desc_extended": "Born in Shanghai in 1986, CPC Member. I've been deep in the project sites of chain brands and guarded the wing on the 5/8-a-side football field; I am a 'Commander' of my Gundam collection. Driven by a passion for gaming and anime culture, I actively embrace the AI wave, leveraging large model tools like Gemini and ComfyUI for content creation and video editing. This enabled a 0-to-1 breakthrough. Currently operating my own social media accounts, welcome to follow and share~",
     
     "hero.btn.resume": "View Career Journey",
     "hero.btn.tools": "My Work",
@@ -94,7 +94,7 @@ export const translations: Record<Language, Record<string, string>> = {
     "hero.titleHighlight": "AI 赋能增长",
     "hero.subtitle_extra": "—— 懂技术、精运营、玩转 AIGC 的大客户经理",
     "hero.desc": "陈子卓野（JOE CHEN）从技术岗转型的业务大客户经理，深耕连锁餐饮品牌的实施与运营，擅长打通技术落地与客户增长的链路。",
-    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”。热爱游戏与动漫文化，积极拥抱 AI 浪潮，熟练运用 Gemini、ComfyUI 等大模型工具进行内容创作与短视频剪辑，在自媒体平台实现了从 0 到 1、单月涨粉 5000+ 的突破 —— 让技术与热爱，都落地成日常的实在价值。",
+    "hero.desc_extended": "1986年生于上海，中共党员。既泡过连锁品牌的项目现场，也守过 5/8 人制足球的边路；是高达收藏架的“指挥官”。热爱游戏与动漫文化，积极拥抱 AI 浪潮，熟练运用 Gemini、ComfyUI 等大模型工具进行内容创作与短视频剪辑，在自媒体平台实现了从 0 到 1 的突破 —— 正在运营自己的自媒体账号，欢迎关注和分享~",
     
     "hero.btn.resume": "查看个人履历生涯",
     "hero.btn.tools": "我的作品",
