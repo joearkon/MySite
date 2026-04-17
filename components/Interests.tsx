@@ -150,6 +150,32 @@ const Interests: React.FC = () => {
              </div>
           </div>
 
+          {/* Weekend Market */}
+          <div id="hobby-market" className="md:col-span-2 md:row-span-1 rounded-2xl overflow-hidden relative group border border-transparent hover:border-textMain/10 transition-colors">
+            <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent z-10 transition-colors duration-500"></div>
+            <div className="w-full h-full overflow-hidden border-2 border-transparent group-hover:border-secondary/50 rounded-2xl transition-all duration-500 box-border">
+              <img 
+                src="https://picturebed.pixelarrayai.com/524/微信图片_20260417112125.jpg" 
+                alt="Weekend Market" 
+                className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 group-hover:brightness-110 transition-all duration-500 ease-out"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+          </div>
+
+          {/* Camping */}
+          <div id="hobby-camping" className="md:col-span-2 md:row-span-1 rounded-2xl overflow-hidden relative group border border-transparent hover:border-textMain/10 transition-colors">
+            <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent z-10 transition-colors duration-500"></div>
+            <div className="w-full h-full overflow-hidden border-2 border-transparent group-hover:border-secondary/50 rounded-2xl transition-all duration-500 box-border">
+              <img 
+                src="https://picturebed.pixelarrayai.com/524/微信图片_20260417112130.jpg" 
+                alt="Outdoor Camping" 
+                className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 group-hover:brightness-110 transition-all duration-500 ease-out"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

@@ -49,6 +49,11 @@ export const translations: Record<Language, Record<string, string>> = {
     "showcase.hobby.football": "Team Spirit",
     "showcase.hobby.football.desc": "Tactics and brotherhood on the field.",
 
+    "showcase.hobby.market": "Weekend Market",
+    "showcase.hobby.market.desc": "Car boot stall experience. Connection & Joy.",
+    "showcase.hobby.camping": "Outdoor Camping",
+    "showcase.hobby.camping.desc": "Escape to nature. Fire, food, and stars.",
+
     // Lifestyle
     "lifestyle.title": "Life Experience",
     "lifestyle.subtitle": "Exploring the world, recording moments, one frame at a time.",
@@ -129,6 +134,11 @@ export const translations: Record<Language, Record<string, string>> = {
 
     "showcase.hobby.football": "足球战术",
     "showcase.hobby.football.desc": "绿茵场上的团队协作与战术执行。",
+
+    "showcase.hobby.market": "周末摆摊",
+    "showcase.hobby.market.desc": "后备箱摆摊。生活气息与社交乐趣。",
+    "showcase.hobby.camping": "野外露营",
+    "showcase.hobby.camping.desc": "逃离城市，奔向山野。篝火、美食与星空。",
 
     // Lifestyle
     "lifestyle.title": "生活体验",
